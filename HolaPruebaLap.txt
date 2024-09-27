@@ -1,1 +1,1 @@
-Esta es una prueba desde una carpeta diferente en la lap, no estoy en la maquina virtual de AWS
+sEsta es una prueba desde una carpeta diferente en la lap, no estoy en la maquina virtual de AWS
