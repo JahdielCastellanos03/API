@@ -1,0 +1,24 @@
+<html>
+<body>
+  <h2>  Da de alta o baja al inventario (existencia de un artículo)</h2>
+<form action="MovInventario.php"  method="GET">
+  Clave: 
+  <input type="text" name="Clave" value="" size=4> &nbsp;&nbsp;
+  Cantidad:
+
+  <input type="text" name="Cantidad" value="" size=4> &nbsp;&nbsp;<br>
+  <input type="radio" name="TipoMovimiento" value="Alta">
+   <label for="html">Alta a Inventario</label><br>
+   
+   <input type="radio" name="TipoMovimiento" value="Baja">
+   <label for="html">Baja a Inventario</label><br>
+  <br>
+  
+   <input type="submit" value="Realizar movimiento">
+</form>
+
+<form action="ImprimeInventario.php" method="GET">
+   <input type="submit" value="Imprime inventario">
+</form>
+</body>
+</html>
